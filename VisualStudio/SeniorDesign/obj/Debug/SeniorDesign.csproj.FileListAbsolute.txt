@@ -1,0 +1,20 @@
+C:\Users\steve\source\repos\SeniorDesign\SeniorDesign\bin\Debug\SeniorDesign.exe.config
+C:\Users\steve\source\repos\SeniorDesign\SeniorDesign\bin\Debug\SeniorDesign.exe
+C:\Users\steve\source\repos\SeniorDesign\SeniorDesign\bin\Debug\SeniorDesign.pdb
+C:\Users\steve\source\repos\SeniorDesign\SeniorDesign\obj\Debug\SeniorDesign.csprojAssemblyReference.cache
+C:\Users\steve\source\repos\SeniorDesign\SeniorDesign\obj\Debug\SeniorDesign.Form1.resources
+C:\Users\steve\source\repos\SeniorDesign\SeniorDesign\obj\Debug\SeniorDesign.Properties.Resources.resources
+C:\Users\steve\source\repos\SeniorDesign\SeniorDesign\obj\Debug\SeniorDesign.csproj.GenerateResource.cache
+C:\Users\steve\source\repos\SeniorDesign\SeniorDesign\obj\Debug\SeniorDesign.csproj.CoreCompileInputs.cache
+C:\Users\steve\source\repos\SeniorDesign\SeniorDesign\obj\Debug\SeniorDesign.exe
+C:\Users\steve\source\repos\SeniorDesign\SeniorDesign\obj\Debug\SeniorDesign.pdb
+C:\Users\steve\Documents\College Files\Spring 2019\ME 460\Code\VisualStudio\SeniorDesign\bin\Debug\SeniorDesign.exe.config
+C:\Users\steve\Documents\College Files\Spring 2019\ME 460\Code\VisualStudio\SeniorDesign\bin\Debug\SeniorDesign.exe
+C:\Users\steve\Documents\College Files\Spring 2019\ME 460\Code\VisualStudio\SeniorDesign\bin\Debug\SeniorDesign.pdb
+C:\Users\steve\Documents\College Files\Spring 2019\ME 460\Code\VisualStudio\SeniorDesign\obj\Debug\SeniorDesign.csprojAssemblyReference.cache
+C:\Users\steve\Documents\College Files\Spring 2019\ME 460\Code\VisualStudio\SeniorDesign\obj\Debug\SeniorDesign.Form1.resources
+C:\Users\steve\Documents\College Files\Spring 2019\ME 460\Code\VisualStudio\SeniorDesign\obj\Debug\SeniorDesign.Properties.Resources.resources
+C:\Users\steve\Documents\College Files\Spring 2019\ME 460\Code\VisualStudio\SeniorDesign\obj\Debug\SeniorDesign.csproj.GenerateResource.cache
+C:\Users\steve\Documents\College Files\Spring 2019\ME 460\Code\VisualStudio\SeniorDesign\obj\Debug\SeniorDesign.csproj.CoreCompileInputs.cache
+C:\Users\steve\Documents\College Files\Spring 2019\ME 460\Code\VisualStudio\SeniorDesign\obj\Debug\SeniorDesign.exe
+C:\Users\steve\Documents\College Files\Spring 2019\ME 460\Code\VisualStudio\SeniorDesign\obj\Debug\SeniorDesign.pdb
