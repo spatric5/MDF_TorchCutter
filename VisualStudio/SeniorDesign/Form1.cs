@@ -31,9 +31,6 @@ namespace SeniorDesign
                 MessageBox.Show("Arduino Not Connected.");
                 arduinoConnected = false;
             }
-
-            comboBox1.Items.Add("Manual");
-            comboBox1.Items.Add("Automatic");
         }
 
         private void button1_Click(object sender, EventArgs e)
