@@ -84,5 +84,33 @@ namespace SeniorDesign
             upClicked = !upClicked;
             return;
         }
+
+        private void serialPort1_DataReceived(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
+        {
+            System.Threading.Thread.Sleep(60);
+            string position = serialPort1.ReadExisting();
+            if (position.Contains("\r\n"))
+                position = position.Replace("\r\n", string.Empty);
+            SetText(position.ToString());
+
+        }
+
+        delegate void SetTextCallback(string text);
+
+        private void SetText(string text)
+        {
+            // InvokeRequired required compares the thread ID of the
+            // calling thread to the thread ID of the creating thread.
+            // If these threads are different, it returns true.
+            if (this.textBox1.InvokeRequired)
+            {
+                SetTextCallback d = new SetTextCallback(SetText);
+                this.Invoke(d, new object[] { text });
+            }
+            else
+            {
+                this.textBox1.Text = text;
+            }
+        }
     }
 }

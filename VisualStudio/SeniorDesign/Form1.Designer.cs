@@ -47,11 +47,11 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.label6 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -111,6 +111,7 @@
             this.textBox1.Size = new System.Drawing.Size(186, 22);
             this.textBox1.TabIndex = 3;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.WordWrap = false;
             // 
             // label1
             // 
@@ -218,6 +219,7 @@
             // serialPort1
             // 
             this.serialPort1.PortName = "COM3";
+            this.serialPort1.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort1_DataReceived);
             // 
             // tabControl1
             // 
@@ -275,6 +277,17 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(771, 360);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
+            // label6
+            // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(23, 261);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(146, 17);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Wire Cut Length (mm)";
+            // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.Chartreuse;
@@ -320,17 +333,6 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(184, 22);
             this.textBox4.TabIndex = 12;
-            // 
-            // label6
-            // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(23, 261);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(146, 17);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "Wire Cut Length (mm)";
             // 
             // textBox5
             // 
