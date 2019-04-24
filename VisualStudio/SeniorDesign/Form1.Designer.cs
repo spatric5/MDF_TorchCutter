@@ -53,11 +53,27 @@
             this.label5 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -218,7 +234,7 @@
             // 
             // serialPort1
             // 
-            this.serialPort1.PortName = "COM3";
+            this.serialPort1.PortName = "COM7";
             this.serialPort1.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort1_DataReceived);
             // 
             // tabControl1
@@ -228,6 +244,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Location = new System.Drawing.Point(3, -1);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -300,6 +317,7 @@
             this.button5.TabIndex = 0;
             this.button5.Text = "Start";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -313,6 +331,7 @@
             this.button6.TabIndex = 1;
             this.button6.Text = "Stop";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // label5
             // 
@@ -343,6 +362,178 @@
             this.textBox5.Size = new System.Drawing.Size(184, 22);
             this.textBox5.TabIndex = 14;
             // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.tableLayoutPanel3);
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(777, 366);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Arduino";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 5;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel3.Controls.Add(this.button7, 3, 2);
+            this.tableLayoutPanel3.Controls.Add(this.button8, 3, 1);
+            this.tableLayoutPanel3.Controls.Add(this.button9, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.button10, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.button11, 2, 1);
+            this.tableLayoutPanel3.Controls.Add(this.button12, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.button13, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.button14, 2, 0);
+            this.tableLayoutPanel3.Controls.Add(this.button15, 0, 2);
+            this.tableLayoutPanel3.Controls.Add(this.button16, 3, 0);
+            this.tableLayoutPanel3.Controls.Add(this.button17, 1, 2);
+            this.tableLayoutPanel3.Controls.Add(this.button18, 2, 2);
+            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 3;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(777, 366);
+            this.tableLayoutPanel3.TabIndex = 0;
+            // 
+            // button7
+            // 
+            this.button7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button7.Location = new System.Drawing.Point(468, 247);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(149, 116);
+            this.button7.TabIndex = 0;
+            this.button7.Text = "Unspool Wire";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button8
+            // 
+            this.button8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button8.Location = new System.Drawing.Point(468, 125);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(149, 116);
+            this.button8.TabIndex = 1;
+            this.button8.Text = "Respool Wire";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button9
+            // 
+            this.button9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button9.Location = new System.Drawing.Point(3, 125);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(149, 116);
+            this.button9.TabIndex = 2;
+            this.button9.Text = "Relay 1 (Yellow)";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button10
+            // 
+            this.button10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button10.Location = new System.Drawing.Point(158, 125);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(149, 116);
+            this.button10.TabIndex = 3;
+            this.button10.Text = "Relay 2 (Green)";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button11
+            // 
+            this.button11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button11.Location = new System.Drawing.Point(313, 125);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(149, 116);
+            this.button11.TabIndex = 4;
+            this.button11.Text = "Relay 3 (Blue)";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // button12
+            // 
+            this.button12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button12.Location = new System.Drawing.Point(3, 3);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(149, 116);
+            this.button12.TabIndex = 5;
+            this.button12.Text = "M1 1 Down Rotation";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // button13
+            // 
+            this.button13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button13.Location = new System.Drawing.Point(158, 3);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(149, 116);
+            this.button13.TabIndex = 6;
+            this.button13.Text = "M2 1 Down Rotation";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // button14
+            // 
+            this.button14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button14.Location = new System.Drawing.Point(313, 3);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(149, 116);
+            this.button14.TabIndex = 7;
+            this.button14.Text = "Motor 1 2 Up 2 rot";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button15
+            // 
+            this.button15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button15.Location = new System.Drawing.Point(3, 247);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(149, 116);
+            this.button15.TabIndex = 8;
+            this.button15.Text = "1 Cut";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
+            // button16
+            // 
+            this.button16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button16.Location = new System.Drawing.Point(468, 3);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(149, 116);
+            this.button16.TabIndex = 9;
+            this.button16.Text = "Motor 12 Down 2 Rot";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // button17
+            // 
+            this.button17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button17.Location = new System.Drawing.Point(158, 247);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(149, 116);
+            this.button17.TabIndex = 10;
+            this.button17.Text = "2 Cuts";
+            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
+            // 
+            // button18
+            // 
+            this.button18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button18.Location = new System.Drawing.Point(313, 247);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(149, 116);
+            this.button18.TabIndex = 11;
+            this.button18.Text = "3 Cuts";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -360,6 +551,8 @@
             this.tabPage2.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tableLayoutPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -391,6 +584,20 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button18;
     }
 }
 
